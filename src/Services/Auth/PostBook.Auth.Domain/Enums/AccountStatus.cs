@@ -1,0 +1,9 @@
+namespace PostBook.Auth.Domain.Enums;
+
+public enum AccountStatus
+{
+    Active,
+    Inactive,
+    Suspended,
+    Deleted
+}

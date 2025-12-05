@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/feed/page": "/feed",
+  "/reels/page": "/reels",
+  "/watch/page": "/watch",
+  "/page": "/",
+  "/profile/page": "/profile"
+}

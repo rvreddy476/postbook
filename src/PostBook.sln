@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8A5ED407-5DAC-4519-A212-67C0E9E3E449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{8A8BA82C-BBAF-43C9-A438-9E2228ED8FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBook.Auth.API", "Services\Auth\PostBook.Auth.API\PostBook.Auth.API.csproj", "{0AAE5D54-89F1-412E-A1DF-215357657434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBook.Auth.Domain", "Services\Auth\PostBook.Auth.Domain\PostBook.Auth.Domain.csproj", "{8DD62F7D-81DD-4900-AF7B-5337A2D08020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBook.Auth.Application", "Services\Auth\PostBook.Auth.Application\PostBook.Auth.Application.csproj", "{8A64E52E-10AA-487D-B55E-9B28014C3660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBook.Auth.Infrastructure", "Services\Auth\PostBook.Auth.Infrastructure\PostBook.Auth.Infrastructure.csproj", "{3F6FD840-E601-4933-BBFE-5FC9E08FDF3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AAE5D54-89F1-412E-A1DF-215357657434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAE5D54-89F1-412E-A1DF-215357657434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAE5D54-89F1-412E-A1DF-215357657434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAE5D54-89F1-412E-A1DF-215357657434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD62F7D-81DD-4900-AF7B-5337A2D08020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD62F7D-81DD-4900-AF7B-5337A2D08020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD62F7D-81DD-4900-AF7B-5337A2D08020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD62F7D-81DD-4900-AF7B-5337A2D08020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A64E52E-10AA-487D-B55E-9B28014C3660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A64E52E-10AA-487D-B55E-9B28014C3660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A64E52E-10AA-487D-B55E-9B28014C3660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A64E52E-10AA-487D-B55E-9B28014C3660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6FD840-E601-4933-BBFE-5FC9E08FDF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6FD840-E601-4933-BBFE-5FC9E08FDF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6FD840-E601-4933-BBFE-5FC9E08FDF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6FD840-E601-4933-BBFE-5FC9E08FDF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A8BA82C-BBAF-43C9-A438-9E2228ED8FBA} = {8A5ED407-5DAC-4519-A212-67C0E9E3E449}
+		{0AAE5D54-89F1-412E-A1DF-215357657434} = {8A8BA82C-BBAF-43C9-A438-9E2228ED8FBA}
+		{8DD62F7D-81DD-4900-AF7B-5337A2D08020} = {8A8BA82C-BBAF-43C9-A438-9E2228ED8FBA}
+		{8A64E52E-10AA-487D-B55E-9B28014C3660} = {8A8BA82C-BBAF-43C9-A438-9E2228ED8FBA}
+		{3F6FD840-E601-4933-BBFE-5FC9E08FDF3B} = {8A8BA82C-BBAF-43C9-A438-9E2228ED8FBA}
+	EndGlobalSection
+EndGlobal
